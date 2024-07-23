@@ -98,7 +98,7 @@ namespace Moonflow
             CheckSize(current);
         }
 
-        [MenuItem("Moonflow/Tools/Art/SDFShadowGenerator")]
+        [MenuItem("Tools/Moonflow/Tools/Art/SDFShadowGenerator")]
         public static void ShowWindow()
         {
             _ins = GetWindow<MFSDFShadowGenerator>();
